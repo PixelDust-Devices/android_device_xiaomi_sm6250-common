@@ -1,2 +1,5 @@
 hal_client_domain(system_app, hal_misys)
 hal_client_domain(system_app, hal_mlipay)
+
+# Allow Settings to set legacy wfd videomode prop
+set_prop(system_app, wfd_legacy_video_mode_prop);
